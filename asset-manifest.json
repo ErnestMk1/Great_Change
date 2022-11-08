@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Great_Change/static/css/main.6f7636fd.css",
-    "main.js": "/Great_Change/static/js/main.96642568.js",
+    "main.css": "/Great_Change/static/css/main.43ca71c0.css",
+    "main.js": "/Great_Change/static/js/main.030c44fc.js",
     "static/js/787.28cb0dcd.chunk.js": "/Great_Change/static/js/787.28cb0dcd.chunk.js",
     "static/media/Calypso.ttf": "/Great_Change/static/media/Calypso.c9a22c7bdf119d6ae24e.ttf",
     "static/media/bg.png": "/Great_Change/static/media/bg.f38ef3a7f04312389382.png",
+    "static/media/bg_values.png": "/Great_Change/static/media/bg_values.6a4b8598e9838f4414cb.png",
     "static/media/globe.svg": "/Great_Change/static/media/globe.ed917c1b1c9f1c77227349c009f3b1d7.svg",
     "static/media/insta.svg": "/Great_Change/static/media/insta.dac67dd790463897216314879e7d14f9.svg",
     "static/media/youtube.svg": "/Great_Change/static/media/youtube.d605a4825578288e4b3dd0f06a6d0889.svg",
     "static/media/fbook.svg": "/Great_Change/static/media/fbook.52376ad65a8fd50215920fc659e69791.svg",
     "index.html": "/Great_Change/index.html",
-    "main.6f7636fd.css.map": "/Great_Change/static/css/main.6f7636fd.css.map",
-    "main.96642568.js.map": "/Great_Change/static/js/main.96642568.js.map",
+    "main.43ca71c0.css.map": "/Great_Change/static/css/main.43ca71c0.css.map",
+    "main.030c44fc.js.map": "/Great_Change/static/js/main.030c44fc.js.map",
     "787.28cb0dcd.chunk.js.map": "/Great_Change/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f7636fd.css",
-    "static/js/main.96642568.js"
+    "static/css/main.43ca71c0.css",
+    "static/js/main.030c44fc.js"
   ]
 }
