@@ -1,0 +1,99 @@
+.main_div {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+}
+
+.text_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_div h1 {
+  text-align: center;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 950;
+  line-height: 41px;
+}
+
+.text_input {
+  width: 80vw;
+  height: 6vh;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  padding: 5vw;
+}
+
+.text_input:active {
+  border: none;
+  background-color: none;
+}
+
+.checkbox_block {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox_input {
+  width: max-content;
+  margin-right: 3vw;
+  background-color: #000;
+}
+
+.checkbox_input:checked {
+  background-color: #6B523B;
+}
+
+.registration_button {
+  width: 70vw;
+  height: 6vh;
+  background: none;
+  border: none;
+  background-color: #6B523B;
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.15rem;
+  transition: transform .3s;
+  cursor: pointer;
+}
+
+.registration_button:hover {
+  transform: scale(0.8);
+}
+
+@media screen and (max-width: 400px) {
+  .text_block label {
+    font-size: .8rem;
+  }
+
+  .registration_button {
+    font-size: .9rem;
+  }
+
+  .main_div {
+    height: 110vh;
+  }
+
+  .checkbox_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .checkbox_block label {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .checkbox_block p {
+    width: 60vw;
+  }
+}

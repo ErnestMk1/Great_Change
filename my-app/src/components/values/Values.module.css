@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+.main_div {
+  height: 75vh;
+  background: center url(../../imgs/bg_values.png) no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  color: #6B523B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.values_caption {
+  font-weight: 950;
+  color: #6B523B;
+  text-align: center;
+}
+
+li {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 5vh;
+}

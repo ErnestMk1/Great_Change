@@ -49,9 +49,14 @@ const Welcome = () => {
         </div>
       </div>
       <div className={css.info_block}>
-        <img src={globe} alt="globe svg" />
-        <p className={css.footer_text}>Зібрання онлайн <br></br>кожної неділі о <strong>10:00</strong> і <strong>12:00</strong></p>
-      </div>
+        <a
+          href="https://www.youtube.com/watch?v=H2MoWa7Akn0"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={globe} alt="globe svg" />
+        </a>
+        <p className={css.footer_text}>Зібрання онлайн <br></br>кожної неділі о <strong>10:00</strong> і <strong>12:00</strong></p></div>
     </div>
   );
 };
