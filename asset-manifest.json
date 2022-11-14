@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Great_Change/static/css/main.f7473d8a.css",
+    "main.css": "/Great_Change/static/css/main.e08aba34.css",
     "main.js": "/Great_Change/static/js/main.8808f559.js",
     "static/js/787.28cb0dcd.chunk.js": "/Great_Change/static/js/787.28cb0dcd.chunk.js",
     "static/media/Calypso.ttf": "/Great_Change/static/media/Calypso.c9a22c7bdf119d6ae24e.ttf",
@@ -12,12 +12,12 @@
     "static/media/youtube.svg": "/Great_Change/static/media/youtube.d605a4825578288e4b3dd0f06a6d0889.svg",
     "static/media/fbook.svg": "/Great_Change/static/media/fbook.52376ad65a8fd50215920fc659e69791.svg",
     "index.html": "/Great_Change/index.html",
-    "main.f7473d8a.css.map": "/Great_Change/static/css/main.f7473d8a.css.map",
+    "main.e08aba34.css.map": "/Great_Change/static/css/main.e08aba34.css.map",
     "main.8808f559.js.map": "/Great_Change/static/js/main.8808f559.js.map",
     "787.28cb0dcd.chunk.js.map": "/Great_Change/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7473d8a.css",
+    "static/css/main.e08aba34.css",
     "static/js/main.8808f559.js"
   ]
 }
