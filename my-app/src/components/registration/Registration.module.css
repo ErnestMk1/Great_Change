@@ -2,6 +2,7 @@
   height: 80vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
   align-items: center;
   gap: 3vh;
 }
@@ -13,7 +14,6 @@
 
 .main_div h1 {
   text-align: center;
-  font-family: 'Mont';
   font-style: normal;
   font-weight: 950;
   line-height: 41px;
@@ -47,14 +47,14 @@
   background-color: #6B523B;
 }
 
-.registration_button {
+.submit_button {
   width: 70vw;
   height: 6vh;
   background: none;
   border: none;
   background-color: #6B523B;
   color: #FFF;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.15rem;
@@ -62,7 +62,7 @@
   cursor: pointer;
 }
 
-.registration_button:hover {
+.submit_button:hover {
   transform: scale(0.8);
 }
 

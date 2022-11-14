@@ -51,7 +51,7 @@ const Registration = () => {
         <label>Даю згоду на обробку персональних даних</label>
       </div>
 
-      <button className={css.registration_button}>ЗАРЕЄСТРУВАТИСЯ</button>
+      <button className={css.submit_button}>ЗАРЕЄСТРУВАТИСЯ</button>
     </div>
   );
 };
