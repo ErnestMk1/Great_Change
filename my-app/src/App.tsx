@@ -1,4 +1,5 @@
 import css from './App.module.css';
+import ChurchLife from './components/church_life/ChurchLife';
 import Donation from './components/donation/Donation';
 import Registration from './components/registration/Registration';
 import Values from './components/values/Values';
@@ -11,6 +12,7 @@ const App = () => {
       <Registration />
       <Values />
       <Donation />
+      <ChurchLife />
     </div>
   );
 };
