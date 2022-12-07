@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/Great_Change/static/css/main.e08aba34.css",
-    "main.js": "/Great_Change/static/js/main.8808f559.js",
+    "main.css": "/Great_Change/static/css/main.38599270.css",
+    "main.js": "/Great_Change/static/js/main.0f1493dc.js",
     "static/js/787.28cb0dcd.chunk.js": "/Great_Change/static/js/787.28cb0dcd.chunk.js",
     "static/media/Calypso.ttf": "/Great_Change/static/media/Calypso.c9a22c7bdf119d6ae24e.ttf",
+    "static/media/youth.png": "/Great_Change/static/media/youth.eead4974c12d9b4027cb.png",
+    "static/media/bros.png": "/Great_Change/static/media/bros.4c81586ff490f7dfb2dc.png",
+    "static/media/sisters.png": "/Great_Change/static/media/sisters.760411173defeda5a47b.png",
     "static/media/bg.png": "/Great_Change/static/media/bg.f38ef3a7f04312389382.png",
     "static/media/bg_values.png": "/Great_Change/static/media/bg_values.6a4b8598e9838f4414cb.png",
     "static/media/globe.svg": "/Great_Change/static/media/globe.ed917c1b1c9f1c77227349c009f3b1d7.svg",
@@ -12,12 +15,12 @@
     "static/media/youtube.svg": "/Great_Change/static/media/youtube.d605a4825578288e4b3dd0f06a6d0889.svg",
     "static/media/fbook.svg": "/Great_Change/static/media/fbook.52376ad65a8fd50215920fc659e69791.svg",
     "index.html": "/Great_Change/index.html",
-    "main.e08aba34.css.map": "/Great_Change/static/css/main.e08aba34.css.map",
-    "main.8808f559.js.map": "/Great_Change/static/js/main.8808f559.js.map",
+    "main.38599270.css.map": "/Great_Change/static/css/main.38599270.css.map",
+    "main.0f1493dc.js.map": "/Great_Change/static/js/main.0f1493dc.js.map",
     "787.28cb0dcd.chunk.js.map": "/Great_Change/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e08aba34.css",
-    "static/js/main.8808f559.js"
+    "static/css/main.38599270.css",
+    "static/js/main.0f1493dc.js"
   ]
 }
