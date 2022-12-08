@@ -1,6 +1,0 @@
-.main_div {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */  /* here's actually i've problem with position: absolute on slider thing. No idea what to do */
-}

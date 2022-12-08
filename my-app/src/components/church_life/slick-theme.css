@@ -20,7 +20,7 @@
 
     cursor: pointer;
 
-    color: transparent;
+    color: #FFF;
     border: none;
     outline: none;
     background: transparent;
@@ -55,10 +55,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    color: #000;
 }
 
 .slick-prev
@@ -72,11 +69,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '<';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '>';
 }
 
 .slick-next
@@ -90,11 +87,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: '>';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '<';
 }
 
 /* Dots */
