@@ -4,6 +4,7 @@
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   align-items: center;
+  justify-content: center;
   gap: 3vh;
 }
 

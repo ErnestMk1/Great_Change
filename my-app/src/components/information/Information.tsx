@@ -6,7 +6,7 @@ const Information = () => {
 
   return (
     <div className={css.main_div}>
-      <div className={`${css.wrapper} ${css.caption_div}`}><h2>Інформація</h2></div>
+      <div className={`${css.wrapper} ${css.caption_div}`}><h1>Інформація</h1></div>
 
       <div className={css.wrapper}>
         <img src={book} alt="book img" />

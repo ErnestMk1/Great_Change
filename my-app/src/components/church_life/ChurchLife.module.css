@@ -8,11 +8,14 @@
 
 .content_block {
   position: relative;
-  top: -70vh;
+  top: -60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
 }
 
 .background {
-  background: center url(../../imgs/bg_values.png) no-repeat;
+  background: center url(../../imgs/bg_pages.png) no-repeat;
   background-size: cover;
   height: 100%;
   filter: blur(20px);
@@ -24,6 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3vh;
 }
 
 .slider_div p {

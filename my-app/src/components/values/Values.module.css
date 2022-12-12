@@ -1,5 +1,5 @@
 .main_div {
-  height: 75vh;
+  height: 55vh;
   font-family: 'Montserrat', sans-serif;
   color: #6B523B;
   display: flex;
@@ -9,7 +9,7 @@
 }
 
 .background {
-  background: center url(../../imgs/bg_values.png) no-repeat;
+  background: center url(../../imgs/bg_pages.png) no-repeat;
   background-size: cover;
   height: 100%;
   filter: blur(20px);
@@ -22,6 +22,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5vh;
 }
 
 .values_caption {

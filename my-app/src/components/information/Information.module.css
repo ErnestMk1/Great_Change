@@ -4,8 +4,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  gap: 7vh;
 }
 
 .wrapper {
@@ -13,10 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.caption_div {
-  margin-bottom: 5vh;
+  gap: 3vh;
 }
 
 .inf_button {
@@ -25,7 +23,7 @@
   background-color: #FFF;
   width: 50vw;
   height: 6vh;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 1.1rem;
   cursor: pointer;
