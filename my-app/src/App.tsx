@@ -1,6 +1,7 @@
 import css from './App.module.css';
 import ChurchLife from './components/church_life/ChurchLife';
 import Donation from './components/donation/Donation';
+import Footer from './components/footer/Footer';
 import Information from './components/information/Information';
 import Leaders from './components/leaders/Leaders';
 import Registration from './components/registration/Registration';
@@ -17,6 +18,7 @@ const App = () => {
       <ChurchLife />
       <Information />
       <Leaders />
+      <Footer />
     </div>
   );
 };
