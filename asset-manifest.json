@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/Great_Change/static/css/main.56863f9a.css",
-    "main.js": "/Great_Change/static/js/main.e0826f33.js",
+    "main.css": "/Great_Change/static/css/main.84ca14bd.css",
+    "main.js": "/Great_Change/static/js/main.345e8830.js",
     "static/js/787.28cb0dcd.chunk.js": "/Great_Change/static/js/787.28cb0dcd.chunk.js",
     "static/media/Calypso.ttf": "/Great_Change/static/media/Calypso.c9a22c7bdf119d6ae24e.ttf",
     "static/media/youth.png": "/Great_Change/static/media/youth.eead4974c12d9b4027cb.png",
     "static/media/bros.png": "/Great_Change/static/media/bros.4c81586ff490f7dfb2dc.png",
     "static/media/sisters.png": "/Great_Change/static/media/sisters.760411173defeda5a47b.png",
     "static/media/bg.png": "/Great_Change/static/media/bg.f38ef3a7f04312389382.png",
-    "static/media/bg_values.png": "/Great_Change/static/media/bg_values.6a4b8598e9838f4414cb.png",
+    "static/media/bg_pages.png": "/Great_Change/static/media/bg_pages.6a4b8598e9838f4414cb.png",
+    "static/media/edward.png": "/Great_Change/static/media/edward.75496756ee44c5f2132c.png",
+    "static/media/anatoliy.png": "/Great_Change/static/media/anatoliy.57a0fde39f6c967ebf28.png",
     "static/media/globe.svg": "/Great_Change/static/media/globe.ed917c1b1c9f1c77227349c009f3b1d7.svg",
     "static/media/donation.svg": "/Great_Change/static/media/donation.704465d624c79f67bf1bd5a36ef7bda6.svg",
     "static/media/insta.svg": "/Great_Change/static/media/insta.dac67dd790463897216314879e7d14f9.svg",
@@ -16,12 +18,12 @@
     "static/media/youtube.svg": "/Great_Change/static/media/youtube.d605a4825578288e4b3dd0f06a6d0889.svg",
     "static/media/fbook.svg": "/Great_Change/static/media/fbook.52376ad65a8fd50215920fc659e69791.svg",
     "index.html": "/Great_Change/index.html",
-    "main.56863f9a.css.map": "/Great_Change/static/css/main.56863f9a.css.map",
-    "main.e0826f33.js.map": "/Great_Change/static/js/main.e0826f33.js.map",
+    "main.84ca14bd.css.map": "/Great_Change/static/css/main.84ca14bd.css.map",
+    "main.345e8830.js.map": "/Great_Change/static/js/main.345e8830.js.map",
     "787.28cb0dcd.chunk.js.map": "/Great_Change/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56863f9a.css",
-    "static/js/main.e0826f33.js"
+    "static/css/main.84ca14bd.css",
+    "static/js/main.345e8830.js"
   ]
 }
