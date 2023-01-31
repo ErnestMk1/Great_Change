@@ -1,0 +1,111 @@
+.main_div {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.content_block {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #6B523B;
+}
+
+.pastors_block {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  gap: 20vw;
+}
+
+.pastors_block div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+}
+
+.background {
+  background: center url(../../imgs/bg_pages.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  filter: blur(20px);
+  box-shadow: inset 1em 1em #FFF;
+}
+
+.caption_block h1 {
+  font-weight: 950;
+  font-size: 2rem;
+}
+
+@media (orientation: portrait) and (min-width: 300px) and (max-width: 400px) {
+  .caption_block h1 {
+    font-size: 1.5rem;
+  }
+
+  .pastor {
+    font-size: 1rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+  .main_div {
+    height: 110vh;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 750px) and (max-width: 1050px) {
+  .caption_block h1 {
+    font-size: 3rem;
+  }
+
+  .pastor {
+    font-size: 1.5rem;
+  }
+
+  .pastor img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1000px) and (max-width: 1200px) {
+  .caption_block h1 {
+    font-size: 2.5rem;
+  }
+
+  .pastor {
+    font-size: 1.5rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1200px) {
+  .main_div {
+    height: 70vh;
+  }
+
+  .string_breaker {
+    display: none;
+  }
+
+  .caption_block h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .pastor img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .pastor {
+    font-size: 1.5rem;
+  }
+}

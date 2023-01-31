@@ -1,0 +1,96 @@
+.main_div {
+  height: 70vh;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #6B523B;
+}
+
+.content_block {
+  position: relative;
+  top: -60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.background {
+  background: center url(../../imgs/bg_pages.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  filter: blur(20px);
+  box-shadow: inset 1em 1em #FFF;
+}
+
+.slider_div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+
+.slider_div p {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.slider_img {
+  width: 250px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 370px) {
+  .slider_img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 300px) and (max-width: 400px) {
+  .caption {
+    font-size: 1.5rem;
+  }
+
+  .slider_div p {
+    font-size: 1rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+  .main_div {
+    height: 130vh;
+  }
+
+  .content_block {
+    top: -110vh;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 750px) and (max-width: 1050px) {
+  .caption {
+    font-size: 3rem;
+  }
+
+  .slider_img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .slider_div p {
+    font-size: 2rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 750px) and (max-width: 850) {
+  .main_div {
+    height: 90vh;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1200px) {
+  .caption {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+}

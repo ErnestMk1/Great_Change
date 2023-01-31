@@ -1,0 +1,252 @@
+.main_div {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+}
+
+.closed {
+  display: none;
+  /* position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0.8);
+  height: 80vh;
+  width: 100vw;
+  text-align: center;
+  color: #B92727;
+  font-weight: 800;
+  font-size: 1.5rem; */
+}
+
+.form_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+}
+
+.text_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_div h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 950;
+}
+
+.text_input {
+  width: 80vw;
+  height: 6vh;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5vw;
+}
+
+.text_input:focus {
+  outline: none;
+}
+
+.checkbox_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox_input {
+  width: max-content;
+  margin-right: 3vw;
+  background-color: #000;
+}
+
+.checkbox_input:checked {
+  background-color: #6B523B;
+}
+
+.submit_button {
+  width: 70vw;
+  height: 6vh;
+  background: none;
+  border: none;
+  background-color: #6B523B;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.15rem;
+  transition: transform .3s;
+  cursor: pointer;
+}
+
+.submit_button:hover {
+  transform: scale(0.9);
+}
+
+@media (max-width: 400px) {
+  .text_block label {
+    font-size: .8rem;
+  }
+
+  .registration_button {
+    font-size: .9rem;
+  }
+
+  .main_div {
+    height: 110vh;
+  }
+
+  .closed {
+    height: 110vh;
+  }
+
+  .checkbox_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .checkbox_block label {
+    width: 60vw;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 300px) and (max-width: 400px) {
+  .main_div {
+    gap: 5vh;
+  }
+
+  .registration_caption {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .checkbox_block p {
+    width: 60vw;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+  .main_div {
+    height: 200vh;
+  }
+
+  .closed {
+    height: 200vh;
+  }
+
+  .submit_button {
+    height: 13vh;
+    width: 50vw;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 690px) and (max-width: 1050px) {
+  .main_div {
+    height: 130vh;
+    gap: 5vh;
+  }
+
+  .closed {
+    height: 130vh;
+  }
+
+  .main_div h1 {
+    font-size: 2rem;
+  }
+
+  .text_block {
+    font-size: 1.5rem;
+  }
+
+  .text_block input::placeholder {
+    font-size: 1.5rem;
+  }
+
+  .checkbox_block {
+    font-size: 1.5rem;
+  }
+
+  .submit_button {
+    font-size: 1.5rem;
+    width: 50vh;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 800px) and (max-width: 1100px) {
+  .text_input {
+    width: 50vw;
+    padding: 2.5vh;
+  }
+
+  .checkbox_input {
+    padding: 2vh;
+  }
+
+  .submit_button {
+    width: 30vw;
+    height: 5vh;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1100px) {
+  .main_div {
+    height: 60vh;
+    gap: 4vh;
+  }
+
+  .closed {
+    height: 60vh;
+  }
+
+  .registration_caption {
+    font-size: 2.5rem;
+  }
+
+  .text_block label {
+    font-size: 1rem;
+  }
+
+  .form_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+  }
+
+  .string_breaker {
+    display: none;
+  }
+
+  .text_input {
+    width: 35vw;
+    padding: 2.5vh;
+  }
+
+  .submit_button {
+    width: 20vw;
+    font-size: 1.5rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1400px) {
+  .main_div {
+    height: 80vh;
+  }
+
+  .closed {
+    height: 80vh;
+  }
+
+  .form_block {
+    gap: 5vw;
+  }
+}

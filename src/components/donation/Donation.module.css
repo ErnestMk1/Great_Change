@@ -1,0 +1,104 @@
+.main_div {
+  height: 70vh;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+
+.main_div p {
+  width: 60vw;
+  font-size: 1.4rem;
+}
+
+.submit_button {
+  width: 70vw;
+  height: 6vh;
+  background: none;
+  border: none;
+  background-color: #6B523B;
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.15rem;
+  transition: transform .3s;
+  cursor: pointer;
+}
+
+.submit_button:hover {
+  transform: scale(0.9);
+}
+
+.submit_button a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+@media (orientation: portrait) and (min-width: 300px) and (max-width: 400px) {
+  .main_div {
+    gap: 7vh;
+  }
+
+  .donation_img {
+    width: 15vw;
+  }
+
+  .donation_caption {
+    font-size: 1.5rem;
+  }
+
+  .main_div p {
+    font-size: 1rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+  .main_div {
+    height: 120vh;
+  }
+
+  .submit_button {
+    height: 13vh;
+    width: 50vw;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 750px) and (max-width: 1050px) {
+  .donation_caption {
+    font-size: 3rem;
+  }
+
+  .main_div p {
+    font-size: 2rem;
+  }
+
+  .submit_button {
+    font-size: 2rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1000px) {
+  .submit_button {
+    height: 6vh;
+    width: 30vw;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1100px) {
+  .donation_caption {
+    font-size: 2.5rem;
+  }
+
+  .main_div p {
+    font-size: 1.7rem;
+  }
+
+  .submit_button {
+    font-size: 1.7rem;
+    width: 30vw;
+  }
+}

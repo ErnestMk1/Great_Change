@@ -1,0 +1,109 @@
+.main_div {
+  margin: 8vh 0;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  gap: 7vh;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+
+.info_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+
+.questions_block {
+  display: none;
+}
+
+.inf_button {
+  border: solid 1px #000;
+  border-radius: 3.54px;
+  background-color: #FFF;
+  width: 50vw;
+  height: 6vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.inf_button:hover {
+  transform: scale(.9);
+}
+
+@media (orientation: portrait) and (min-width: 300px) and (max-width: 400px) {
+  .info_caption {
+    font-size: 1.5rem;
+  }
+
+  .info_block h2 {
+    font-size: 1rem;
+  }
+
+  .inf_button {
+    font-size: .8rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+  .main_div {
+    min-height: 100vh;
+  }
+
+  .inf_button {
+    height: 13vh;
+    width: 50vw;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 750px) and (max-width: 1050px) {
+  .caption_div h1 {
+    font-size: 3rem;
+  }
+
+  .wrapper h2 {
+    font-size: 2rem;
+  }
+
+  .inf_button {
+    font-size: 2rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1100px) {
+  .wrapper {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 25vw;
+  }
+
+  .info_caption {
+    font-size: 2.5rem;
+  }
+
+  /* Блок для запитань та відповідей. Поки в процесі розробки */
+  /* .info_block {
+    display: flex;
+  } */
+
+  .inf_button {
+    width: 15vw;
+  }
+}

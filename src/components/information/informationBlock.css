@@ -1,0 +1,52 @@
+.list_shown {
+  display: inline;
+  animation: fadein 2s;
+}
+
+.list {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.list_hidden {
+  display: none;
+}
+
+@media (orientation: portrait) and (min-width: 300px) and (max-width: 400px) {
+  .dogma_caption {
+    font-size: 1.3rem;
+  }
+
+  .dogma_list_element {
+    font-size: 1rem;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 750px) and (max-width: 1050px) {
+  .dogma_caption {
+    font-size: 2.5rem;
+  }
+
+  .dogma_list_element {
+    font-size: 1.7rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1100px) {
+  .dogma_caption {
+    font-size: 2rem;
+  }
+
+  .dogma_list_element {
+    font-size: 1.5rem;
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

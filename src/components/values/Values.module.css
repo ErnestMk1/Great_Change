@@ -1,0 +1,89 @@
+.main_div {
+  height: 55vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #6B523B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  background: center url(../../imgs/bg_pages.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100%;
+  filter: blur(20px);
+  box-shadow: inset 1em 1em #FFF;
+}
+
+.content_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  z-index: 1;
+}
+
+.values_caption {
+  font-weight: 950;
+  color: #6B523B;
+  text-align: center;
+}
+
+.listOfValues li {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 5vh;
+}
+
+@media (orientation: portrait) and (min-width: 300px) and (max-width: 400px) {
+  .values_caption {
+    font-size: 1.5rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+  .main_div {
+    height: 80vh;
+  }
+
+  .values_caption {
+    font-size: 1.6rem;
+  }
+
+  .listOfValues li {
+    line-height: 8vh;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 750px) and (max-width: 1050px) {
+  .listOfValues li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1000px) and (max-width: 1200px) {
+  .listOfValues li {
+    font-size: 1.25rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1200px) {
+  .main_div {
+    height: 60vh;
+  }
+
+  .values_caption {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .listOfValues li {
+    font-size: 1.7rem;
+    line-height: 7vh;
+  }
+}
